@@ -3,12 +3,13 @@
     flex-direction: column;
     background-image: url(../images/back.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     max-width: 1236px;
     margin: 0 auto;
     width: 100%;
     min-height: 1000px;
     margin-top: 70px;
+    background-position: bottom;
     &__header {
         font-family: 'Nunito Sans', sans-serif;
         font-weight: bold;

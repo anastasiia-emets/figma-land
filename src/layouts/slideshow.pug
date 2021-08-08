@@ -1,7 +1,7 @@
 .slideshow
     .slideshow__header  Fastest way to navigate
     .slideshow__elements
-        .slideshow__element 
+        .slideshow__element.slideshow__element-desktop
             img.slideshow__icon(src="images/pro.png")
             .slideshow__title Design with real data
             .slideshow__text Ever wondered if you're too reliant on a client for work? Slate helps you identify .
@@ -25,11 +25,52 @@
                 .slideshow__text2-row 49,943
             .progress
                 .progress-bar.bg-color-yellow(role='progressbar' style='width: 1.8%' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100')
-        .slideshow__element 
+        .slideshow__element.slideshow__element-desktop 
             img.slideshow__icon(src="images/gridicons.png")
             .slideshow__title Work at the speed of thought.
             .slideshow__text Ever wondered if you're too reliant on a client for work? Slate helps you identify .
             .slideshow__circle
                 .slideshow__text1 $73,994
                 .slideshow__text2 Facebook
+    #carouselExampleControls.carousel.slide(data-bs-ride='carousel')
+        .carousel-inner
+            .carousel-item.active
+                .slideshow__element 
+                    img.slideshow__icon(src="images/pro.png")
+                    .slideshow__title Design with real data
+                    .slideshow__text Ever wondered if you're too reliant on a client for work? Slate helps you identify .
+                    .slideshow__row 
+                        .slideshow__text-row Facebook    
+                        .slideshow__text2-row 35,929  
+                    .progress
+                        .progress-bar.bg-color-green(role='progressbar' style='width: 36%' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100')
+                    .slideshow__row 
+                        .slideshow__text-row Twitter
+                        .slideshow__text2-row 28,854 
+                    .progress
+                        .progress-bar.bg-color-blue(role='progressbar' style='width: 29%' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100')
+                    .slideshow__row 
+                        .slideshow__text-row Behance
+                    .slideshow__text2-row 1,843
+                        .progress
+                    .progress-bar.bg-color-violet(role='progressbar' style='width: 50%' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100')
+                    .slideshow__row 
+                        .slideshow__text-row Instagram
+                        .slideshow__text2-row 49,943
+                    .progress
+                        .progress-bar.bg-color-yellow(role='progressbar' style='width: 1.8%' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100')
+            .carousel-item
+                .slideshow__element 
+                    img.slideshow__icon(src="images/gridicons.png")
+                    .slideshow__title Work at the speed of thought.
+                    .slideshow__text Ever wondered if you're too reliant on a client for work? Slate helps you identify .
+                    .slideshow__circle
+                        .slideshow__text1 $73,994
+                        .slideshow__text2 Facebook
+        button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+        button.carousel-control-next(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
     button.btn.btn-primary.slideshow__button(type='button') Try For Free

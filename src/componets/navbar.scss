@@ -44,33 +44,6 @@ ul#myLinks li a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 900px) {
-  .hamburger-container {
-    display: none;
-  }
-
- 
-
-  .logo {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .header__link {
-    padding: 0;
-    margin: 0;
-  }
- 
-
-  
-  .header__logo {
-    display: none;
-  }
-  .logo {
-    margin-left: 7%;
-  }
-}
 .hamburger li {
   height: 5px;
   background: #fff;
