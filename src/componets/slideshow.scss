@@ -1,0 +1,117 @@
+.slideshow {
+    width: 100%;
+    display: flex;
+    max-width: 1236px;
+    margin: 0 auto;
+    background: #0285e4;
+    flex-direction: column;
+    margin-top: -1px;
+    &__header {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    &__element {
+        width: 372px;
+        height: 639px;
+        background: #ffffff;
+        border: 1px solid #d3d3d3;
+        border-radius: 10px;
+        margin: 0px 60px;
+        padding: 40px;
+    }
+    &__elements {
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        max-width: 212px;
+        margin-bottom: 11px;
+        margin-top: 25px;
+    }
+    &__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #5c5c5c;
+        max-width: 240px;
+    }
+    &__circle {
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        background: url(../images/chart.png);
+        width: 226px;
+        height: 226px;
+        flex-direction: column;
+    }
+    &__text1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 90px;
+    }
+    &__text2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color: #9aa1a9;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__row {
+        margin-top: 20px;
+    }
+    &__text-row {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    &__text2-row {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+    & .slideshow__button {
+        display: flex;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        width: 191px;
+        height: 52px;
+        background: white !important;
+        color: #0285e4 !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.slideshow .progress {
+    height: 6px;
+    margin-top: 4px;
+}
+.slideshow .bg-color-green {
+    background: #2cd9c5;
+}
+.slideshow .bg-color-blue {
+    background: #2d99ff;
+}
+.slideshow .bg-color-violet {
+    background: #826af9;
+}
+.slideshow .bg-color-yellow {
+    background: #ffe700;
+}

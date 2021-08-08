@@ -1,0 +1,49 @@
+.calltoactions {
+    width: 100%;
+    display: flex;
+    max-width: 1236px;
+    margin: 0 auto;
+    background: #ffffff;
+    flex-direction: column;
+    .features__title {
+        min-width: 100%;
+        text-align: center;
+        margin-top: 110px;
+    }
+    .slideshow__text {
+        display: flex;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 52px;
+        min-width: 597px;
+    }
+    .calltoactions-wrapp {
+        padding: 0px 239px;
+    }
+    .progress-bar.bg-color-blue {
+        height: 15px;
+        background: #0285e4;
+    }
+    button.btn.btn-primary.calltoactions__button {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        height: 52px;
+        margin-top: 50px;
+        margin-bottom: 90px;
+        width: 191px;
+    }
+}
+
+.js-slidein {
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .js-slidein-visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }

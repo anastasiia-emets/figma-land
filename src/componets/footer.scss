@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    display: flex;
+    max-width: 1236px;
+    margin: 0 auto;
+    min-height: 133px;
+    background: #112d57;
+    justify-content: space-between;
+    padding: 0px 35px 0px 78px;
+    align-items: center;
+    i.fab {
+        color: white;
+        font-size: 50px;
+        margin: 0px 15px;
+    }
+    img.header__logo {
+        width: 206px;
+        height: 58px;
+    }
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        line-height: 23px;
+        text-align: right;
+        color: #ffffff;
+    }
+}
