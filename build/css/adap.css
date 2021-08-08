@@ -251,3 +251,22 @@ ul.menu.showMenu {
     width: 100% !important;
   }
 }
+
+@media screen and (max-width: 410px) {
+  img.header__logo {
+    width: 150px;
+  }
+  button.btn.btn-primary.navbar__button {
+    font-size: 15px;
+  }
+  .header {
+    min-height: 600px;
+  }
+  .slideshow__element {
+    width: 80 .slideshow__element;
+    padding: 20px;
+  }
+  .footer {
+    padding: 0px 30px;
+  }
+}
