@@ -274,7 +274,7 @@ button.btn.btn-primary {
   display: flex;
   margin: auto;
   margin-top: 40px;
-  background: url(../images/chart.png);
+  background: url(../../images/chart.png);
   width: 226px;
   height: 226px;
   -webkit-box-orient: vertical;
