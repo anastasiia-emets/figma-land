@@ -210,6 +210,7 @@
     }
 }
 
+
 button.ham {
     background: none;
     border: none;
@@ -222,4 +223,9 @@ ul.menu {
 }
 ul.menu.showMenu {
     display: block;
+}
+@media screen and (max-width: 450px) {
+    .features .features__img.phone{
+        width: 100% !important;
+    }
 }
