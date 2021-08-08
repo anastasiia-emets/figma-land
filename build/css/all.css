@@ -72,6 +72,13 @@
           box-sizing: border-box;
 }
 
+button:hover,
+a:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.2 opacity;
+  transition: 0.2 opacity;
+}
+
 .navbar-wrapp {
   width: 100%;
   display: -webkit-box;
@@ -120,60 +127,12 @@ ul#myLinks li a {
   text-decoration: none;
 }
 
-.hamburger li {
-  height: 5px;
-  background: #fff;
-  content: "";
-  position: relative;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-}
-
-.hidden {
-  opacity: 0;
-}
-
-.rot45deg {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  top: 10px !important;
-}
-
-.rot-45deg {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-
-.hamburger {
-  display: block;
-}
-
-.hamburger li:nth-child(1) {
-  top: 0;
-}
-
-.hamburger li:nth-child(2) {
-  top: 5px;
-}
-
-.hamburger li:nth-child(3) {
-  top: 10px;
-}
-
-.hamburger-container {
-  width: 38px;
-  margin: 1.2em 1.6em;
-  height: 30px;
-  cursor: pointer;
-  float: left;
-}
-
 button.btn.btn-primary {
   -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
   border-radius: 50px;
   background: #0285e4;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
